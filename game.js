@@ -17,7 +17,7 @@ Game.prototype.newTurn = function(){
 
 var Turn = function(){
   var options = ['rock', 'paper', 'scissors'];
-  var randomNum = Math.floor(Math.random * 3);
+  var randomNum = Math.floor(Math.random() * 3);
 
   this.playerChoice = '';
   this.computerChoice = options[randomNum];
