@@ -1,5 +1,7 @@
 body{
   font-family: "Lucida Console", Monaco, monospace;
+  padding: 20px;
+  vertical-align: center;
 }
 
 button {
@@ -24,4 +26,16 @@ button:hover{
 .button-container{
   height: 80px;
   text-align: center;
+}
+.side{
+  display: inline-block;
+  width: 49%;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 15px;
+}
+.game-container{
+  width: 85vw;
+  margin: auto;
 }
