@@ -5,13 +5,18 @@
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
   <script type="text/javascript" src="./game.js"></script>
   <script type="text/javascript" src="./index.js"></script>
+  <link rel="stylesheet" type="text/css" href="./styles.css" />
 </head>
 <body>
-  <button class="choice" data-name="rock">Rock</button>
-  <button class="choice" data-name="paper">Paper</button>
-  <button class="choice" data-name="scissors">Scissors</button>
-  <h1>Player: <span id="player-choice"></span></h1>
-  <h1>Computer: <span id="computer-choice"></span></h1>
+  <div class="button-container">
+    <button class="choice" data-name="rock">Rock</button>
+    <button class="choice" data-name="paper">Paper</button>
+    <button class="choice" data-name="scissors">Scissors</button>
+  </div>
+  <div>
+    <h1>Player: <span id="player-choice"></span></h1>
+    <h1>Computer: <span id="computer-choice"></span></h1>
+  </div>
   <table>
     <tr>
       <th>Player</th>
