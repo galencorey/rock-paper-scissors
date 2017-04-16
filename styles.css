@@ -1,7 +1,6 @@
 body{
   font-family: "Lucida Console", Monaco, monospace;
   padding: 20px;
-  vertical-align: center;
 }
 
 button {
@@ -38,4 +37,16 @@ button:hover{
 .game-container{
   width: 85vw;
   margin: auto;
+}
+
+#winner-log{
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+img{
+  width: 80%;
+  vertical-align: top;
+  max-height: 150px;
 }

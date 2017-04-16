@@ -37,7 +37,7 @@ Turn.prototype.addPlayerChoice = function(choice){
   if (winningChoices[choice] === compChoice){
     this.winner = 'player';
   } else if (choice === compChoice) {
-    this.winner = 'draw';
+    this.winner = 'no one';
   } else {
     this.winner = 'computer';
   }
